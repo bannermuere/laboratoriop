@@ -33,6 +33,7 @@
         width: 3rem;
     }
 
+
 }
 
 @media screen and (max-width: 1020px){
@@ -131,6 +132,7 @@
 
     .imagenRedes{
         width: 50%;
+        height: 200px;
         padding: 20px;
     }
     
@@ -146,9 +148,6 @@
         flex-direction: column-reverse;
     }
     
-    label{
-        font-size: 1rem;
-    }
 
      .contenido-slider > div{
         width: 80%;

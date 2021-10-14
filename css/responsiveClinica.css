@@ -1,0 +1,137 @@
+@media screen and (max-width: 1220px){
+    .contenidoNav{
+        display: flex;
+        justify-content: center;
+    }
+    .contenidoAccesos, .contenidoNav{
+        max-width: 80%;
+    }
+    .contenedorContenidoPortada{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 1160px){
+    .contenedorSliderEquipo, .cita, .contenidoContacto, .contenedorFormulario, .contenidoFooter, .contenidoUbicacion{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+    .logo{
+        display: none;
+    }
+    .contenidoNav{
+        justify-content: center;
+    }
+
+    .logoPortada img{
+        width: 3rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1020px){
+    .accesos nav ul li a{
+        color: var(--fondo);
+        display: none;
+    }
+
+    br{
+        display: none;
+    }
+
+    h1{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    label, strong{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .cita{
+        flex-direction: column;
+    }
+    
+    .contenidoUbicacion{
+        flex-direction: column;
+    }
+
+    .columna{
+        width: 100%;
+    }
+
+    .hide{
+        display: none;
+    }
+    .columna img{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 820px){
+
+    .contenedorContenidoPortada{
+        width: 80%;
+    }
+    .menu, .logo, .whatsapp{
+        display: none;
+    }
+
+    .contenedorBody{
+        margin-top: 40px;
+    }
+    
+    .accesos nav ul li{
+    display: none;
+    }
+
+    .contenidoAccesos{
+        justify-content: center;
+    }
+
+    footer img{
+        width: 50%;
+    }
+
+    .imagenRedes{
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+    }
+    
+    .redes nav ul .iconoWhatsapp{
+        display: inherit;
+    }
+
+    .redes nav ul .iconoInstagram{
+        display: none;
+    }
+
+    .contenido-slider{
+        flex-direction: column-reverse;
+    }
+    
+    label{
+        font-size: 1rem;
+    }
+
+     .contenido-slider > div{
+        width: 80%;
+     }
+
+     .iconoMenu{
+        display: block;
+     }
+
+     .formularioContacto{
+        width: 100%;
+    }
+}

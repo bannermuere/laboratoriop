@@ -565,6 +565,7 @@ label{
 
 .contenedorRedes{
     width: 70%;
+    height: auto;
     margin: 80px auto;
     padding-top: 80px;
     border-top: var(--fuente) 3px solid;
@@ -579,11 +580,13 @@ label{
 
 .imagenRedes{
     width: 33%;
+    height: 400px;
     padding: 20px;
 }
 
 .imagenRed{
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
