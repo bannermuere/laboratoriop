@@ -333,19 +333,22 @@ label{
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
-    background-image: url(../img/slide\ 1.jpg);
+    background-image: url(../img/clinica/portada/01.png);
     color: #fff;
     background-size: cover;
+    background-position: center;
 }
 
 .contenidoSlider:nth-child(2){
-    background-image: url(../img/slide\ 2.jpg);
+    background-image: url(../img/clinica/portada/02.png);
     background-size: cover;
+    background-position: center;
 }
 
 .contenidoSlider:nth-child(3){
-    background-image: url(../img/slide\ 1.jpg);
+    background-image: url(../img/clinica/portada/01.png);
     background-size: cover;
+    background-position: center;    
 }
 
 .contenedorContenidoPortada{

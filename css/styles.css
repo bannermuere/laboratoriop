@@ -327,19 +327,22 @@ label{
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
-    background-image: url(../img/slide\ 1.jpg);
+    background-image: url(../img/laboratorio/portada/01.png);
     color: #fff;
     background-size: cover;
+    background-position: center;
 }
 
 .contenidoSlider:nth-child(2){
-    background-image: url(../img/slide\ 2.jpg);
+    background-image: url(../img/laboratorio/portada/02.png);
     background-size: cover;
+    background-position: center;
 }
 
 .contenidoSlider:nth-child(3){
-    background-image: url(../img/slide\ 3.jpg);
+    background-image: url(../img/laboratorio/portada/03.png);
     background-size: cover;
+    background-position: center;
 }
 
 .contenedorContenidoPortada{
@@ -450,10 +453,7 @@ label{
 }
 
 .contenidoSliderEquipo{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
+    position: relative;
 }
 .slide{
     padding: 10px;
@@ -462,10 +462,30 @@ label{
 .sliderAnterior, .slideSiguiente{
     background: none;
     border: none;
+    margin: auto;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    z-index: 3;
 }
+
+.sliderAnterior{
+    left: -30px;
+}
+
+.slideSiguiente{
+    right: -30px;
+}
+
 .slideSiguiente img{
     transform: scaleX(-1);
 }
+
 .sliderAnterior img, .slideSiguiente img{
     width: 100%;
     height: 100%;
@@ -483,10 +503,7 @@ label{
 }
 
 .contenidoSliderServicios{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
+    position: relative;
 }
 
 .contenidoSliderServicios .slide{
@@ -548,6 +565,24 @@ label{
 .sliderAnteriorServicios, .slideSiguienteServicios{
     background: none;
     border: none;
+    margin: auto;
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    z-index: 3;
+}
+
+.sliderAnteriorServicios{
+    left: -30px;
+}
+
+.slideSiguienteServicios{
+    right: -30px;
 }
 
 .slideSiguienteServicios img{

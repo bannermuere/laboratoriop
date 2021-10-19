@@ -107,6 +107,10 @@
 
 @media screen and (max-width: 820px){
 
+    .sliderAnteriorServicios, .slideSiguienteServicios, .sliderAnterior, .slideSiguiente{
+        display: none;
+    }
+
     .contenedorContenidoPortada{
         width: 80%;
     }
@@ -124,6 +128,10 @@
 
     .contenidoAccesos{
         justify-content: center;
+    }
+
+    .contenidoContacto label{
+        font-size: 0.6rem;
     }
 
     footer img{
