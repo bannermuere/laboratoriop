@@ -11,7 +11,7 @@ function send(event) {
       Body : document.getElementById('asunto').value
       }).then(function(response){ 
        if (response == 'OK') {              
-           alert("Mail sent succeessfully");
+           alert("Recibimos tu correo, te responderemos lo más pronto posible.");
         } else {
             throw new Error("Error: " + response.statusText);
         } 
