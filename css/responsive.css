@@ -134,6 +134,10 @@
         font-size: 0.6rem;
     }
 
+    .crt-select-post-body{
+        display: none;
+    }
+
     footer img{
         width: 50%;
     }
