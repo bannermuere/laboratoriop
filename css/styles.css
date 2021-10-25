@@ -609,21 +609,7 @@ label{
 
 .contenidoRedes{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
 }
-
-#curator-feed-default-feed-layout{
-    width: 100%;
-}
-
-.crt-feed{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
 
 
 /* Contacto */
