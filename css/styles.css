@@ -605,6 +605,9 @@ label{
     border-top: var(--fuente) 3px solid;
 }
 
+.pixlee_container{
+    max-width: 1200px;
+}
 
 /* Contacto */
 
