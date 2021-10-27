@@ -126,10 +126,8 @@ label{
     padding: 0px 10px;
 }
 
-
 .iconoMenu{
     display: none;
-
 }
 
 .animated{
@@ -605,10 +603,6 @@ label{
     margin: 80px auto;
     padding-top: 80px;
     border-top: var(--fuente) 3px solid;
-}
-
-.contenidoRedes{
-    width: 100%;
 }
 
 
