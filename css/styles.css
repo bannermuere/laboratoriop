@@ -643,6 +643,10 @@ label{
     height: 100%;
 }
 
+.contenidoRedes figure a h3{
+    font-size: 1rem;
+}
+
 .contenidoRedes figure a img{
     height: 100%;
     width: 100%;

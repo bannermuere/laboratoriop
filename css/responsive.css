@@ -112,6 +112,11 @@
 
 @media screen and (max-width: 820px){
 
+    .contenidoRedes figure{
+        height: 43vw;
+        width: 43vw;
+    }
+
     .sliderAnteriorServicios, .slideSiguienteServicios, .sliderAnterior, .slideSiguiente{
         display: none;
     }
