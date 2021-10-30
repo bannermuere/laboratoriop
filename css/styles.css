@@ -7,6 +7,7 @@
     list-style: none;
     transition: all 200ms;
     scroll-behavior: smooth;
+    outline: none;
 }
 
 :root {
@@ -425,21 +426,39 @@ label{
 /* Profesionales */
 
 .contenedorProfesionales{
-    margin-top: 80px;
     width: 100%;
 }
 
-.contenidoProfesionales{
+.contenidoProfesionales div{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 70%;
     margin: auto;
+    margin-top: 80px;
     padding-bottom: 80px;
     border-bottom: var(--fuente) solid 3px;
 }
 
-.contenidoProfesionales img{
+.contenidoProfesionales div section{
+    width: 59%;
+    text-align: justify;
+}
+
+.contenidoProfesionales :first-child{
+    align-items: center;
+}
+
+.contenidoProfesionales div h3{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.contenidoProfesionales div img{
+    width: 37%;
+    height: min-content;
+}
+
+.contenidoProfesionales :first-child img{
     width: 50%;
 }
 
@@ -605,9 +624,51 @@ label{
     border-top: var(--fuente) 3px solid;
 }
 
-.pixlee_container{
-    max-width: 1200px;
+.contenidoRedes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.contenidoRedes figure{
+    position: relative;
+    height: 17vw;
+    width: 17vw;
+    overflow: hidden;
+    margin: 3px;
+}
+
+.contenidoRedes figure a{
+    width: 100%;
+    height: 100%;
+}
+
+.contenidoRedes figure a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 200ms;
+}
+
+.textoRedes{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d3d3db7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    color: var(--fondo);
+    opacity: 0;
+    text-align: center;
+}
+
+
+.contenidoRedes figure:hover > .textoRedes{
+    opacity: 1;
+}
+
 
 /* Contacto */
 
