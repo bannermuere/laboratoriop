@@ -362,7 +362,6 @@ label{
 
 .logoPortada img{
     width: 3rem;
-    filter: invert();
 }
 
 .contenedorTextoPortada{

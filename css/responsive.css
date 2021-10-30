@@ -38,6 +38,9 @@
         width: 3rem;
     }
 
+    .contenidoRedes figure a h3{
+        font-size: 0.8rem;
+    }
 
 }
 

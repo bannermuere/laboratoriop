@@ -355,7 +355,6 @@ label{
 
 .logoPortada img{
     width: 3rem;
-    filter: invert();
 }
 
 .contenedorTextoPortada{
@@ -644,7 +643,7 @@ label{
 }
 
 .contenidoRedes figure a h3{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .contenidoRedes figure a img{
