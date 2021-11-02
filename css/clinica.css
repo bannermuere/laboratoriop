@@ -388,7 +388,6 @@ label{
 .contenedorSliderEquipo{
     width: 70%;
     margin: auto;
-    margin-bottom: 80px;
 }
 
 .contenidoSliderEquipo{
@@ -413,6 +412,39 @@ label{
     height: 100%;
     object-fit: cover;
 }
+
+/* Nutricion */
+
+.contenedorNutricion{
+    width: 100%;
+}
+
+.contenedorNutricion div{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 80px 0px;
+    border-top: var(--fuente) solid 3px;
+}
+
+.contenedorNutricion div section{
+    width: 59%;
+    text-align: justify;
+}
+
+.contenedorNutricion div h3{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.contenedorNutricion div img{
+    width: 37%;
+    height: min-content;
+    object-fit: cover;
+}
+
 
 /* Cita */
 
