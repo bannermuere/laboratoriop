@@ -39,7 +39,7 @@
     }
 
     .contenidoRedes figure a h3{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
 }
@@ -116,8 +116,8 @@
 @media screen and (max-width: 820px){
 
     .contenidoRedes figure{
-        height: 43vw;
-        width: 43vw;
+        height: 47vw;
+        width: 48%;
     }
 
     .sliderAnteriorServicios, .slideSiguienteServicios, .sliderAnterior, .slideSiguiente{

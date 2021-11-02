@@ -125,6 +125,12 @@ label{
     height: 1.5rem;
     filter: invert();
     padding: 0px 10px;
+
+}
+
+.redes nav ul .idioma img{
+    filter: none;
+    border-radius: 30%;
 }
 
 .iconoMenu{
@@ -627,12 +633,14 @@ label{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 
 .contenidoRedes figure{
     position: relative;
     height: 17vw;
-    width: 17vw;
+    width: 24%;
     overflow: hidden;
     margin: 3px;
 }
@@ -643,7 +651,7 @@ label{
 }
 
 .contenidoRedes figure a h3{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .contenidoRedes figure a img{
@@ -686,19 +694,15 @@ label{
     width: 70%;
     margin: auto;
     display: flex;
-    justify-content: right;
     padding-top: 80px;
     border-top: 3px solid var(--fuente);
-}
-
-.contenidoContacto ul{
-    text-align: right;
 }
 
 .contenidoContacto ul li label a{
     color: var(--fuente);
     position: relative;
 }
+
 .contenidoContacto a::before {
     content: '';
     position: absolute;
@@ -709,9 +713,10 @@ label{
     background: var(--fuente);
     z-index: 1;
     transform: scaleX(0);
-    transform-origin: right;
+    transform-origin: left;
     transition: transform 0.5s ease-in-out;
 }
+
 .contenidoContacto a:hover::before {
     transform: scaleX(1);
 }
