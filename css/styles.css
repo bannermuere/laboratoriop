@@ -332,22 +332,18 @@ label{
     justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
-    background-image: url(../img/laboratorio/portada/01.png);
+    background-image: url(../img/laboratorio/portada/02.png);
     color: #fff;
     background-size: cover;
     background-position: center;
 }
 
 .contenidoSlider:nth-child(2){
-    background-image: url(../img/laboratorio/portada/02.png);
-    background-size: cover;
-    background-position: center;
+    background-image: url(../img/laboratorio/portada/01.png);
 }
 
 .contenidoSlider:nth-child(3){
     background-image: url(../img/laboratorio/portada/03.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .contenedorContenidoPortada{
