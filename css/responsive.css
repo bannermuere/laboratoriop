@@ -138,6 +138,7 @@
         height: 600px;
         object-position: center;
         margin-bottom: 20px;
+        object-fit: cover;
     }
 
     .contenidoProfesionales :first-child img{

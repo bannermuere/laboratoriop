@@ -393,6 +393,7 @@ label{
 .encabezado img{
     width: 55%;
     margin-bottom: 40px;
+    object-fit: cover;
 }
 
 /* Filosofia */
@@ -456,7 +457,7 @@ label{
 
 .contenidoProfesionales div img{
     width: 37%;
-    height: min-content;
+    object-fit: cover;
 }
 
 .contenidoProfesionales :first-child img{

@@ -124,6 +124,7 @@ label{
 
 .accesos nav ul li img{
     cursor: initial;
+    object-fit: cover;
 }
 
 .accesos nav ul li img, .redes nav ul li img{
@@ -173,6 +174,7 @@ label{
 
 .logo a img{
     height: 60%;
+    object-fit: cover;
 }
 
 .menu{
@@ -310,6 +312,7 @@ label{
     width: 1.4rem;
     height: 1.4rem;
     filter: invert();
+    object-fit: cover;
 }
 .contenidoWhatsapp label {
     font-size: 1rem;
@@ -467,6 +470,7 @@ label{
 .columna img{
     width: 100%;
     margin-top: 30px;
+    object-fit: cover;
 }
 
 .textoWhatsapp{
@@ -603,4 +607,5 @@ footer{
 footer img{
     width: 25%;
     height: 15%;
+    object-fit: cover;
 }
