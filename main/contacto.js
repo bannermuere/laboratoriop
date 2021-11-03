@@ -5,7 +5,7 @@ function send(event) {
       Host : "smtp.gmail.com",
       Username : "enviarcorreop@gmail.com",
       Password : "opgocvyrixcflgqv",
-      To : "bannermuere@gmail.com",
+      To : "recepcion@centrodecardiologiadeantigua.com",
       From : document.getElementById('email').value,
       Subject : document.getElementById('nombre').value,
       Body : document.getElementById('asunto').value
