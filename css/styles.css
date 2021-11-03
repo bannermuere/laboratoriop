@@ -457,12 +457,14 @@ label{
 
 .contenidoProfesionales div img{
     width: 37%;
+    height: 500px;
     object-fit: cover;
     object-position: center;
 }
 
 .contenidoProfesionales :first-child img{
     width: 50%;
+    height: 700px;
 }
 
 /* Slider Equipo*/
