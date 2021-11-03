@@ -458,6 +458,7 @@ label{
 .contenidoProfesionales div img{
     width: 37%;
     object-fit: cover;
+    object-position: center;
 }
 
 .contenidoProfesionales :first-child img{
