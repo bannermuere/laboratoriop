@@ -117,9 +117,10 @@ label{
     display: none;
 }
 
-.accesos nav ul li a{
+.accesos nav ul li label{
     color: var(--fondo);
     position: relative;
+    font-size: 1rem;
 }
 
 .accesos nav ul li img{
@@ -308,18 +309,37 @@ label{
     align-items: center;
     display: flex;
 }
+
 .contenidoWhatsapp img{
     width: 1.4rem;
     height: 1.4rem;
     filter: invert();
-    object-fit: cover;
-}
-.contenidoWhatsapp label {
-    font-size: 1rem;
-    color: var(--fondo);
-    padding-left: 20px;
 }
 
+.contenidoWhatsapp a {
+    font-size: 1rem;
+    color: var(--fondo);
+    margin: 10px 20px;
+    position: relative;
+    padding-bottom: 1px;
+}
+
+.contenidoWhatsapp a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--fondo);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.5s ease-in-out;
+}
+.contenidoWhatsapp a:hover::before {
+    transform: scaleX(1);
+}
 
 
 /*Portada pa*/

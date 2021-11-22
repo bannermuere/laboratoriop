@@ -45,8 +45,7 @@
 }
 
 @media screen and (max-width: 1020px){
-    .accesos nav ul li a{
-        color: var(--fondo);
+    .accesos nav ul li label{
         display: none;
     }
 
